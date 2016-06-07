@@ -4,21 +4,24 @@ require 'mysql'
 
 class databaseController
 
-	def initialize
+	def self.initialize
 	end
 	
-	def addItem
+	def self.addItem
 	end
 
-	def deleteItem
+	def self.deleteItem
 	end
 
-	def deleteAll
+	def self.deleteAll
 	end
 
-	def displayItem
+	def self.displayItem
 	end
 
-	def displayAll
+	def self.displayAll
+	end
+
+	def self.search #Need to define scope
 	end
 end
